@@ -105,14 +105,10 @@ docker run -it -p 7929:7929  megatts3:latest
 
 **Model Download**
 
-The pretrained checkpoint can be found at [Google Drive](https://drive.google.com/drive/folders/1CidiSqtHgJTBDAHQ746_on_YR0boHDYB?usp=sharing) or [Huggingface](https://huggingface.co/ByteDance/MegaTTS3). Please download them and put them to ``./checkpoints/xxx``.
+The pretrained checkpoint can be found at [ModelScope](https://modelscope.cn/models/ACoderPassBy/MegaTTS-SFT/summary) . Please download them and put them to ``./checkpoints/xxx``.
 
 > [!IMPORTANT]  
-> For security issues, we do not upload the parameters of WaveVAE encoder to the above links. You can only use the pre-extracted latents from [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) for inference. If you want to synthesize speech for speaker A, you need "A.wav" and "A.npy" in the same directory. If you have any questions or suggestions for our model, please email us.
-> 
-> This project is primarily intended for academic purposes. For academic datasets requiring evaluation, you may upload them to the voice request queue in [link2](https://drive.google.com/drive/folders/1gCWL1y_2xu9nIFhUX_OW5MbcFuB7J5Cl?usp=sharing) (within 24s for each clip). After verifying that your uploaded voices are free from safety issues, we will upload their latent files to [link1](https://drive.google.com/drive/folders/1QhcHWcy20JfqWjgqZX1YM3I6i9u4oNlr?usp=sharing) as soon as possible.
-> 
-> In the coming days, we will also prepare and release the latent representations for some common TTS benchmarks.
+> unofficial version!!!
 
 ## Inference
 
